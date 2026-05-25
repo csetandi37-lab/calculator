@@ -1,4 +1,16 @@
 let display = document.getElementById("display");
+let main = document.getElementById("main");
+function changeColor(){
+    if(main.classList.contains("white"))
+    {
+        main.classList.remove("white");
+        main.classList.add("black");
+    }
+    else{
+        main.classList.remove("black");
+        main.classList.add("white");
+    }
+}
 let calculatebhayo = 0;
 function addNumber(a) {
     if (calculatebhayo == 1) {

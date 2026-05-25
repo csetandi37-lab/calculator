@@ -1,7 +1,12 @@
-body{
+.black{
     display: flex;
     justify-content: center;
     background-color: black;
+}
+.white{
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
 #maincalculator{
     width: 400px;
